@@ -3,12 +3,13 @@ The task is to classify the sentiment of potentially long texts for several aspe
 
 ## Datasets
 
-The datasets are available at https://drive.google.com/file/d/19yn-ob-IFI-CRgt-uRvWGpiHhlUoiwh5/view?usp=drive_link. The downloaded datasets (i.e., the  `covid19_tweets.csv` file) need to be moved into the root path of this project.
+The datasets are available at https://drive.google.com/drive/folders/1ZSo7FlaNpEcEyigUX7nmnsYqMsS7FABH?usp=sharing. The downloaded datasets (i.e., the dataset folder) need to be moved into the root path of this project.
 
-Our experimental dataset is in the folder `dataset/RumourEval-19`, which contains three json files. In every json file,
+Our experimental dataset is `dataset/covid19_tweets.csv`, which is a CSV file contains data about covid19 related tweets. In the CSV file,
 
-- the `id` identifies the unique id of the post.
-- the `label` identifies the veracity of the post, whose value ranges in [ `fake`,  `real`, `unverified`]. 
-- the `content` is the content of the post.
+- the `user_name` identifies the unique id of the post.
+- the `user_location` identifies the veracity of the post, whose value ranges in [ `fake`,  `real`, `unverified`]. 
+- the `user_description` is the content of the post.
+- 
 - the `comments` are the users' comments list towards the post.
 - the `content_emotions_labels` and `cotent_emotions_probs` are the *Emotion Category* features of the content. And the `comments100_emotions_labels_mean_pooling`, `comments100_emotions_labels_max_pooling`, `comments100_emotions_probs_mean_pooling`, and `comments100_emotions_probs_max_pooling` are the *Emotion Category* features of the earliest 100 comments. The way how to use these features will be described in [here](https://github.com/RMSnow/WWW2021#step12-get-the-emotion-features).
