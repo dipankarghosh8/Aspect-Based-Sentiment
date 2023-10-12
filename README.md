@@ -1,4 +1,6 @@
 # Aspect-Based-Sentiment
+Aspect-based sentiment analysis (ABSA) is a text analysis technique that categorizes data by aspect and identifies the sentiment attributed to each one. It can be used to analyze customer feedback by associating specific sentiments with different aspects of a product or serviceaspect-based-sentiment-analysis is a Python package that provides a modern NLP package which supports explanations of model predictions and can be freely extended to your needs 1.
+
 The task is to classify the sentiment of potentially long texts for several aspects. The key idea is to build a modern NLP package which supports explanations of model predictions. The approximated decision explanations help you to infer how reliable predictions are.
 
 ## Datasets
